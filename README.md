@@ -9,4 +9,11 @@
 	如果想要前端app连接mock server ，注释该句，放出上面的“target: 'http://localhost:3000',”
 	修改时注意输入法是英文输入法（切忌中文）
 	
+	# React 模仿大众点评
+	`npm install`
+	`npm run mock`
+	`npm start`(再单独起一个命令窗口)
+
+	另外，所有的后端接口地址，都可以在`./mock/server.js`中查看
+	
 3.SQL脚本请先运行createTable.sql建表，再运行loadInitData.sql插入数据
